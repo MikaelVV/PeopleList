@@ -8,7 +8,15 @@ package src;
 
 public class Main {
 
+    GUI gui;
+
     public static void main(String[] args){
-        System.out.println("Working!");
+        GUI gui = new GUI();
+        System.out.println("Working!!");
     }
+
+    public Main(GUI parentGUI) {
+        gui = parentGUI;
+    }
+
 }
